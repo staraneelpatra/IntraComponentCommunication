@@ -7,7 +7,7 @@ import { Teacher } from '../teachers/teachers.model';
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent {
-  @Input("teacherDetails") teacher: Teacher;
+  @Input() teacher: Teacher;
   @Input('principle') principleName: string;
  
   constructor() { }
